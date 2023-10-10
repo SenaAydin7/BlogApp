@@ -50,6 +50,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     context.Posts.AddRange(
                         new Entity.Post {
                             Title = "Santiago Bernabeu",
+                            Description = "Real Madrid",
                             Content = "Real Madrid",
                             Url = "santiago-bernabeu",
                             IsActive = true,
@@ -62,6 +63,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             },
                         new Entity.Post {
                             Title = "Old Trafford",
+                            Description = "Manchester United",
                             Content = "Manchester United",
                             Url = "old-trafford",
                             IsActive = true,
@@ -72,6 +74,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             },
                         new Entity.Post {
                             Title = "San Siro",
+                            Description = "A.C. Milan and Inter Milan",
                             Content = "A.C. Milan and Inter Milan",
                             Url = "san-siro",
                             IsActive = true,
